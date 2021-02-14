@@ -15,7 +15,9 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-    @IBAction func ButtonPress(_ sender: Any) {
+    @IBAction func ButtonPress(_ sender: UIButton)
+    {
+        print ("tapped \(String(describing:sender.titleLabel?.text!))")
     }
     
 }
